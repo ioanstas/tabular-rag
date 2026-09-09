@@ -180,3 +180,27 @@ evaluation pipeline is understood.
 
 
 ### Uni Assignment
+
+1. we have csv files -> we create them manually probably or download also. We probably need relatively small many tables so the table summaries make sense? First step is to create/find the tables. Second is to create the evaluation dataset for the tables by using an LLM probably and ask the llm "according to the table description (if we have the description) and the table, what is a question that a user could ask that would retrieve this  table?". Then the LLM gives us some questions, then we keep the questions somewhere to know which question corresponds to which table, and we create a dataset. For example 100 tables (5 rows, 5 cols) and 1 summary(.txt) for each made by LLM -> 1 question per each (ground truth). (a question maps to the ID of a table). The question acts like a label ground truth for our csv-summary pair. Do i evaluate the retrieval right after retrieval? Just before the llm gives the answer. During the hybrid search block we probably add the retrieval evaluation using those 100 questions?  Find metric for retrieval if my retrieval isnt 1st but it actually is in the top k.
+Another idea would be is to have 1 big cvs, only 1, and create a summary for each row
+2. breaks into sparse and dense embeddings in the following way
+3. for the sparse embeddings we only need the csv files
+4. for the dense embedding we create summaries from the csv files, then dense embeddings
+5. Then they both converge into a hybrid search block which  (Qdrant?)
+6. then you ask same question? t
+7. then again hybrid search
+8. then relevant knowledge block
+
+
+0. Additional notes and idea: maybe add pre-retrieval method, post-retrieval, re-ranking
+0.1. 
+- For the evaluation first i need to learn how evalluation is usually done
+- also i have to make a model create questions or a dataset that evaluates my RAG according to a colleague? So this is a way to test the retrieval of the RAG. 
+Colleague says there is no need to do evaluation on the answer but i might do it for . Some ideas are `exact match`, `semantic similarity`, and maybe something else? Or another idea for the evaluadtion of the answer is to use LLM as a judge and ask how good you think you answered the question
+- Maybe i can evaluate hybrid search?
+- Use MTEB leaderboard to choose a model?
+
+The whole tabular rag is happening because text to sql doesnt work very well for a RAG. Perhaps i can even implement PNEUMA immediately or even take code parts?
+Use openrouter?
+Use hugging face -> get a model  like mistral
+
