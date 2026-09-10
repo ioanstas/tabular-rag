@@ -1,0 +1,9 @@
+# folders
+dataset/
+Videos/
+
+
+# files
+*.md
+*.pdf
+*.pptx
