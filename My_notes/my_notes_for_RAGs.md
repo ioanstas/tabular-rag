@@ -204,3 +204,63 @@ The whole tabular rag is happening because text to sql doesnt work very well for
 Use openrouter?
 Use hugging face -> get a model  like mistral
 
+
+## Offline Block 
+  1. csv tables + manifest
+    - We create the manifest in this part i think to help us (need more info)
+  2. Ingestion and Validation
+    - Q: What do we do? Read the manifest and load all 60 CSV tables with their IDs and metadata.
+    - Q: What do we check? Files exist, CSVs load, IDs are unique, and row/column counts match the manifest.
+    - Q: Why? Ensure the source data is complete, consistent, and traceable before processing it.
+  3. Deterministic representation
+    - Q: What do we do? Convert each table into text containing its ID, title, domain, column names, and all rows.
+    - Q: What do we preserve? Exact values and stable row/column order—the same input always produces the same text.
+    - Q: What do we save? One record per table in artifacts/sparse_documents.jsonl, containing table_id and
+      serialized_text.
+  4. BM25 index and sparse-retrieval baseline
+    - Q: What do we load? The 60 serialized table documents and their table_id values.
+    - Q: What do we build? Tokenize the text into searchable terms and build a BM25 index. Keep each document linked to its table ID.
+    - Q: How do we search? Tokenize the question using the same rules, score the documents, and return the top-ranked table IDs.
+    - Q: What do we check? Try about five sample questions and inspect whether the expected tables appear near the top.
+    - Q: Why? Establish a simple, measurable retrieval baseline before adding semantic search.
+
+    BM25:
+    Offline part:
+      1. loads documents (jsonl to be exact) then converts it to a sparseDocument
+      2. tokenizes, converts them into bm25 counts
+      3. Returns a SparseIndex with `build_bm25(documents)` And this is the end of offline mode
+    Online part:
+      1. `search_bm25(index, question, top_k)`
+  5. Dense embeddings side/ index:
+    - Q: What is an embedding? A numerical vector representing aspects of a text’s meaning. Related texts should have similar vectors.
+    - Q: What do we embed? One descriptive summary per table. We prepared these summaries separately and saved them in artifacts/table_summaries.jsonl.
+    - Q: Why summaries? They describe what each table contains in natural language, helping retrieval when questions use different wording.
+    - Q: Do we train a model? No. We use a pretrained embedding model to encode our summaries. This is inference, not training.
+    - Q: What do we build? A DenseIndex containing the vectors, ordered table IDs, and model/settings metadata.
+    - Q: What do we save? artifacts/dense_index.npz. Our current matrix has shape (60, 384): 60 summaries, each represented by 384 numbers.
+    - Q: What do we check? Every table has one vector; IDs remain aligned; values are finite; normalized vectors have length approximately 1; inputs aren’t truncated; saving/loading preserves the data.
+    - Q: Why? Prepare reusable semantic representations for online retrieval.
+  
+  
+  # Choosing an embedding model
+    - Q: What criteria matter?
+      - Retrieval quality: does it retrieve the correct tables on reviewed development questions? Compare Recall@k and MRR.
+      - Language and domain: does it support our text’s language and terminology?
+      - Input length: can it encode the complete summaries without truncation?
+      - Speed and resources: how much CPU/GPU memory and processing time does it require?
+      - Deployment and cost: local hosting versus API charges, network dependence, and data-handling requirements.
+      - Vector size: more dimensions require more storage and computation; they don’t automatically mean better retrieval.
+    - Q: What did we choose and why?
+      sentence-transformers/all-MiniLM-L6-v2: a compact English model suitable for an initial local baseline. It produces 384-dimensional vectors and has a default limit of 256 wordpieces. Our summaries fit
+      within that limit. We haven’t yet established that it gives the best retrieval results. Model card
+
+  ```text   
+  Option                      How it works
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Hugging Face/local model    Download model weights, then encode text on your machine. This is our approach.
+  ──────────────────────────  ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   OpenAI API                  Send text to a dedicated embedding model such as text-embedding-3-small or text-embedding-3-large. These are separate from GPT chat models. OpenAI documentation
+  ──────────────────────────  ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Claude/Anthropic            Anthropic currently doesn’t offer its own embedding model. Its documentation demonstrates Voyage AI, a separate embedding provider. Claude can still generate the final answer.
+                               Anthropic documentation
+  ```
