@@ -1,0 +1,25 @@
+season,position,team,played,won,drawn,lost,goal_difference,points
+2023-24,1,Athens Falcons,14,10,2,2,20,32
+2024-25,2,Larissa Athletic,14,9,3,2,14,30
+2025-26,3,Thessaloniki Lions,14,8,4,2,8,28
+2023-24,4,Volos Mariners,14,7,5,2,-1,26
+2024-25,5,Patras United,14,6,0,8,-7,18
+2025-26,6,Piraeus Waves,14,5,1,8,-13,16
+2023-24,7,Ioannina Eagles,14,4,2,8,-22,
+2024-25,8,Crete Stars,14,3,3,8,-28,12
+2025-26,1,Piraeus Waves,14,10,4,0,22,34
+2023-24,2,Ioannina Eagles,14,9,5,0,13,32
+2024-25,3,Crete Stars,14,8,0,6,7,24
+2025-26,4,Athens Falcons,14,7,1,6,1,22
+2023-24,5,Larissa Athletic,14,6,2,6,-8,20
+2024-25,6,Thessaloniki Lions,14,5,3,6,-14,18
+2025-26,7,Volos Mariners,14,4,4,6,-20,16
+2023-24,8,Patras United,14,3,5,6,-29,14
+2024-25,1,Thessaloniki Lions,14,10,0,4,21,30
+2025-26,2,Volos Mariners,14,9,1,4,15,28
+2023-24,3,Patras United,14,8,2,4,6,26
+2024-25,4,Piraeus Waves,14,7,3,4,0,24
+2025-26,5,Ioannina Eagles,14,6,4,4,-6,22
+2023-24,6,Crete Stars,14,5,5,4,-15,20
+2024-25,7,Athens Falcons,14,4,0,10,-21,12
+2025-26,8,Larissa Athletic,14,3,1,10,-27,10

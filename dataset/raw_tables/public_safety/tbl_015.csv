@@ -1,0 +1,91 @@
+response_area,month,incident_type,incidents,average_response_minutes,people_rescued,property_loss_eur
+Central District,2025-01,Structure fire,69,19,13,5544
+South District,2025-02,Vegetation fire,33,17.8,31,349717
+North District,2025-03,Rescue,141,12.3,3,32082
+West District,2025-04,Vegetation fire,100,21.1,17,119364
+East District,2025-05,Rescue,33,15.4,19,388609
+North District,2025-06,Structure fire,141,10.4,13,359875
+West District,2025-07,Rescue,163,16.9,31,40118
+East District,2025-08,Structure fire,57,8.1,24,74554
+Central District,2025-09,Vegetation fire,176,18.1,6,293582
+South District,2025-10,Structure fire,132,8.9,24,
+East District,2025-11,Vegetation fire,27,13.7,9,91598
+Central District,2025-12,Rescue,117,18,16,456545
+South District,2025-01,Vegetation fire,44,12.9,12,293063
+North District,2025-02,Rescue,57,20.4,19,276211
+West District,2025-03,Structure fire,71,14.6,19,442117
+South District,2025-04,Rescue,34,10.3,0,228320
+North District,2025-05,Structure fire,97,16.1,14,374052
+West District,2025-06,Vegetation fire,152,20.2,32,251561
+East District,2025-07,Structure fire,75,9.4,26,295756
+Central District,2025-08,Vegetation fire,122,19,2,203105
+West District,2025-09,Rescue,108,15,26,431361
+East District,2025-10,Vegetation fire,36,5.4,4,329725
+Central District,2025-11,Rescue,165,15.4,23,301052
+South District,2025-12,Structure fire,156,8.1,2,272318
+North District,2025-01,Rescue,97,8.2,19,287253
+Central District,2025-02,Structure fire,177,21.4,20,31807
+South District,2025-03,Vegetation fire,125,6.4,32,260715
+North District,2025-04,Structure fire,8,20.2,18,126088
+West District,2025-05,Vegetation fire,43,9.2,19,310261
+East District,2025-06,Rescue,103,21.9,10,35617
+North District,2025-07,Vegetation fire,84,5.3,23,221610
+West District,2025-08,Rescue,187,14.1,21,80156
+East District,2025-09,Structure fire,49,7.6,0,399726
+Central District,2025-10,Rescue,121,12.6,2,14909
+South District,2025-11,Structure fire,61,18.3,30,458154
+East District,2025-12,Vegetation fire,190,9.4,21,424853
+Central District,2025-01,Structure fire,125,15,32,131996
+South District,2025-02,Vegetation fire,17,16.2,5,380657
+North District,2025-03,Rescue,105,19.4,22,80862
+West District,2025-04,Vegetation fire,53,17.4,3,189425
+South District,2025-05,Rescue,111,13.7,23,18484
+North District,2025-06,Structure fire,169,7.2,31,288862
+West District,2025-07,Rescue,126,19.8,9,231565
+East District,2025-08,Structure fire,46,10.4,2,435722
+Central District,2025-09,Vegetation fire,109,21.4,5,127330
+West District,2025-10,Structure fire,5,14.1,29,232085
+East District,2025-11,Vegetation fire,42,20,10,433918
+Central District,2025-12,Rescue,157,8.3,28,47769
+South District,2025-01,Vegetation fire,31,21.2,3,139645
+North District,2025-02,Rescue,42,13.3,28,262137
+Central District,2025-03,Structure fire,4,11.6,13,266429
+South District,2025-04,Rescue,40,15.3,29,62273
+North District,2025-05,Structure fire,18,10.3,16,229071
+West District,2025-06,Vegetation fire,59,13.6,18,34732
+East District,2025-07,Structure fire,59,12.6,21,187757
+North District,2025-08,Vegetation fire,139,5.2,15,4043
+West District,2025-09,Rescue,29,15.3,25,359087
+East District,2025-10,Vegetation fire,134,5.5,3,436838
+Central District,2025-11,Rescue,103,12.9,22,217810
+South District,2025-12,Structure fire,148,13.5,30,183373
+East District,2025-01,Rescue,100,11.6,27,6045
+Central District,2025-02,Structure fire,160,15.4,15,468805
+South District,2025-03,Vegetation fire,84,9.2,5,
+North District,2025-04,Structure fire,147,11.3,3,181826
+West District,2025-05,Vegetation fire,61,19.2,25,241216
+South District,2025-06,Rescue,68,14.9,7,89895
+North District,2025-07,Vegetation fire,136,13.9,30,208448
+West District,2025-08,Rescue,57,9.6,10,47851
+East District,2025-09,Structure fire,62,16.6,16,313551
+Central District,2025-10,Rescue,8,11.6,26,18465
+West District,2025-11,Structure fire,86,18.9,23,341701
+East District,2025-12,Vegetation fire,75,11.6,9,83137
+Central District,2025-01,Structure fire,137,20.5,17,191707
+South District,2025-02,Vegetation fire,150,14.1,29,71879
+North District,2025-03,Rescue,123,6,19,127206
+Central District,2025-04,Vegetation fire,71,12.6,9,235768
+South District,2025-05,Rescue,134,17,30,401974
+North District,2025-06,Structure fire,168,17.8,12,460378
+West District,2025-07,Rescue,79,20.5,27,368425
+East District,2025-08,Structure fire,155,15.1,18,335125
+North District,2025-09,Vegetation fire,177,19.3,25,67364
+West District,2025-10,Structure fire,168,11.1,4,90629
+East District,2025-11,Vegetation fire,119,9,5,238038
+Central District,2025-12,Rescue,47,7.8,15,421753
+South District,2025-01,Vegetation fire,189,6.9,11,301963
+East District,2025-02,Rescue,72,15.1,30,122656
+Central District,2025-03,Structure fire,108,5.5,21,257767
+South District,2025-04,Rescue,55,17.4,31,394524
+North District,2025-05,Structure fire,183,19.7,3,382795
+West District,2025-06,Vegetation fire,104,15.5,15,106314

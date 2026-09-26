@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "purpose": "Small illustrative challenge, not a representative benchmark.",
+  "source_hashes": {
+    "raw_tables/healthcare/tbl_001.csv": "dfd5637a2040cc0bc743ce45e5e957fc4a9ef990097bc545ae067b10799ccd08",
+    "raw_tables/public_safety/tbl_011.csv": "2174e4cb875986a49fa870ba32486290f17311d1d7f6f2faf5e1264e1b6992dd",
+    "raw_tables/software_engineering/tbl_021.csv": "61763c7a3d52b2d49bb9e59c7763bdb2f5213b41e991896801ebae6b854d1232",
+    "raw_tables/employment/tbl_031.csv": "3b76506b49ae1ca7a588cc88266edb028c7bd881a13e589f090aed3306dccdd1",
+    "raw_tables/football/tbl_041.csv": "37b7cd0f1ce5da4be3a1d4b5e4d2ae0fe872929cf292a461747d878136dd6a05",
+    "raw_tables/weather/tbl_052.csv": "4a14530008ca2e91e3e4d51c4be1ac6cad621d7a00784999767345d18ac150da"
+  },
+  "questions": [
+    {
+      "question_id": "answer_001",
+      "query_type": "lookup",
+      "question": "In the synthetic dataset's Monthly hospital admissions by diagnosis group, what is admissions_count for hospital_name=Olive Grove Clinic, report_month=2025-01, diagnosis_group=Respiratory?",
+      "expected_value": "296",
+      "expected_table_ids": [
+        "tbl_001"
+      ],
+      "evidence": {
+        "filters": {
+          "hospital_name": "Olive Grove Clinic",
+          "report_month": "2025-01",
+          "diagnosis_group": "Respiratory"
+        },
+        "column": "admissions_count"
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_002",
+      "query_type": "lookup",
+      "question": "In the synthetic dataset's Arrests by offence category, what is arrests_count for policing_district=Central District, month=2025-01, offence_group=Fraud?",
+      "expected_value": "120",
+      "expected_table_ids": [
+        "tbl_011"
+      ],
+      "evidence": {
+        "filters": {
+          "policing_district": "Central District",
+          "month": "2025-01",
+          "offence_group": "Fraud"
+        },
+        "column": "arrests_count"
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_003",
+      "query_type": "lookup",
+      "question": "In the synthetic dataset's Production incidents by severity, what is incident_count for application=checkout-api, report_month=2025-01, severity=SEV3?",
+      "expected_value": "13",
+      "expected_table_ids": [
+        "tbl_021"
+      ],
+      "evidence": {
+        "filters": {
+          "application": "checkout-api",
+          "report_month": "2025-01",
+          "severity": "SEV3"
+        },
+        "column": "incident_count"
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_004",
+      "query_type": "lookup",
+      "question": "In the synthetic dataset's Recruitment agency candidate placements, what is placements_completed for placement_region=Central Macedonia, month=2025-01, industry_sector=Healthcare?",
+      "expected_value": "38",
+      "expected_table_ids": [
+        "tbl_031"
+      ],
+      "evidence": {
+        "filters": {
+          "placement_region": "Central Macedonia",
+          "month": "2025-01",
+          "industry_sector": "Healthcare"
+        },
+        "column": "placements_completed"
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_005",
+      "query_type": "lookup",
+      "question": "In the synthetic dataset's Team shooting statistics by season, what is goals for season=2023-24, team=Volos Mariners?",
+      "expected_value": "21",
+      "expected_table_ids": [
+        "tbl_041"
+      ],
+      "evidence": {
+        "filters": {
+          "season": "2023-24",
+          "team": "Volos Mariners"
+        },
+        "column": "goals"
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_006",
+      "query_type": "lookup",
+      "question": "In the synthetic dataset's Daily temperature observations by weather station, what is maximum_temperature_c for station_id=WX01, observation_date=2025-01-01?",
+      "expected_value": "14.2",
+      "expected_table_ids": [
+        "tbl_052"
+      ],
+      "evidence": {
+        "filters": {
+          "station_id": "WX01",
+          "observation_date": "2025-01-01"
+        },
+        "column": "maximum_temperature_c"
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_007",
+      "query_type": "comparison",
+      "question": "In Monthly hospital admissions by diagnosis group, what is the difference in admissions_count: record A (hospital_name=Olive Grove Clinic, report_month=2025-01, diagnosis_group=Respiratory) minus record B (hospital_name=Riverside Regional Hospital, report_month=2025-02, diagnosis_group=Cardiovascular)? Return a signed number.",
+      "expected_value": "-648",
+      "expected_table_ids": [
+        "tbl_001"
+      ],
+      "evidence": {
+        "operation": "A minus B",
+        "column": "admissions_count",
+        "A": {
+          "hospital_name": "Olive Grove Clinic",
+          "report_month": "2025-01",
+          "diagnosis_group": "Respiratory",
+          "admissions_count": "296",
+          "emergency_share_pct": "73.5",
+          "average_length_of_stay_days": "5.4"
+        },
+        "B": {
+          "hospital_name": "Riverside Regional Hospital",
+          "report_month": "2025-02",
+          "diagnosis_group": "Cardiovascular",
+          "admissions_count": "944",
+          "emergency_share_pct": "58.8",
+          "average_length_of_stay_days": "8.7"
+        }
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_008",
+      "query_type": "comparison",
+      "question": "In Arrests by offence category, what is the difference in arrests_count: record A (policing_district=Central District, month=2025-01, offence_group=Fraud) minus record B (policing_district=West District, month=2025-02, offence_group=Theft)? Return a signed number.",
+      "expected_value": "-26",
+      "expected_table_ids": [
+        "tbl_011"
+      ],
+      "evidence": {
+        "operation": "A minus B",
+        "column": "arrests_count",
+        "A": {
+          "policing_district": "Central District",
+          "month": "2025-01",
+          "offence_group": "Fraud",
+          "arrests_count": "120",
+          "adult_arrests": "95",
+          "juvenile_arrests": "25"
+        },
+        "B": {
+          "policing_district": "West District",
+          "month": "2025-02",
+          "offence_group": "Theft",
+          "arrests_count": "146",
+          "adult_arrests": "144",
+          "juvenile_arrests": "2"
+        }
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_009",
+      "query_type": "comparison",
+      "question": "In Production incidents by severity, what is the difference in incident_count: record A (application=checkout-api, report_month=2025-01, severity=SEV3) minus record B (application=notification-worker, report_month=2025-02, severity=SEV1)? Return a signed number.",
+      "expected_value": "7",
+      "expected_table_ids": [
+        "tbl_021"
+      ],
+      "evidence": {
+        "operation": "A minus B",
+        "column": "incident_count",
+        "A": {
+          "application": "checkout-api",
+          "report_month": "2025-01",
+          "severity": "SEV3",
+          "incident_count": "13",
+          "customer_impact_minutes": "211",
+          "mttr_minutes": "232",
+          "repeat_incidents": "1"
+        },
+        "B": {
+          "application": "notification-worker",
+          "report_month": "2025-02",
+          "severity": "SEV1",
+          "incident_count": "6",
+          "customer_impact_minutes": "861",
+          "mttr_minutes": "62.1",
+          "repeat_incidents": "2"
+        }
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_010",
+      "query_type": "aggregation",
+      "question": "In Monthly hospital admissions by diagnosis group, what is the total admissions_count for hospital_name=Olive Grove Clinic across all records in the supplied dataset?",
+      "expected_value": "8361",
+      "expected_table_ids": [
+        "tbl_001"
+      ],
+      "evidence": {
+        "operation": "sum",
+        "column": "admissions_count",
+        "filters": {
+          "hospital_name": "Olive Grove Clinic"
+        },
+        "rows": 18
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_011",
+      "query_type": "aggregation",
+      "question": "In Arrests by offence category, what is the total arrests_count for policing_district=Central District across all records in the supplied dataset?",
+      "expected_value": "3257",
+      "expected_table_ids": [
+        "tbl_011"
+      ],
+      "evidence": {
+        "operation": "sum",
+        "column": "arrests_count",
+        "filters": {
+          "policing_district": "Central District"
+        },
+        "rows": 24
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    },
+    {
+      "question_id": "answer_012",
+      "query_type": "unanswerable",
+      "question": "What will Olive Grove Clinic's exact total admissions be in January 2035?",
+      "expected_value": "",
+      "expected_table_ids": [],
+      "evidence": {
+        "reason": "No future 2035 admissions or forecast is supplied."
+      },
+      "review_status": "programmatically_verified_pending_human_review"
+    }
+  ]
+}

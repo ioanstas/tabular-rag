@@ -1,0 +1,8 @@
+Compare identical model, prompt, settings and questions; only supplied evidence changes.
+6 lookups, 3 comparisons, 2 aggregations, 1 unanswerable question.
+Show correctness.png and results.csv. Report unanswerable abstention separately.
+Without-RAG abstention is appropriate for unknown synthetic values, even though it does not answer the question.
+Numeric scoring checks the structured scalar; review prose for contradictions and source support.
+Citing an expected table is a source-ID check, not proof of factual grounding.
+Small assistant-designed set; no claim of statistical significance or general model superiority.
+Do not omit failed questions. Errors remain failures in the denominator.

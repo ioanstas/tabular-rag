@@ -1,0 +1,76 @@
+{
+  "created_at_utc": "2026-09-21T06:03:22.501925+00:00",
+  "evaluation_name": "additional_same_domain_challenge",
+  "evaluation_role": "frozen diagnostic test; no parameter tuning",
+  "review_status_counts": {
+    "assistant_verified": 42
+  },
+  "evaluation_sources": {
+    "queries": {
+      "path": "dataset/generated_evaluation/additional_query_candidates.csv",
+      "sha256": "394c0b35ba5177b94a96e8d8c36a49cd1e6ec073f429319d96cd78bb5ea68ecf"
+    },
+    "qrels": {
+      "path": "dataset/generated_evaluation/additional_qrels_candidates.csv",
+      "sha256": "3e49cb08e87e7133dfe00b246df26a8dbfc00929bbd4e6cc58ab51cfea96f579"
+    }
+  },
+  "metrics": [
+    "hit_rate@1",
+    "hit_rate@3",
+    "hit_rate@5",
+    "mrr"
+  ],
+  "alpha_definition": "alpha*dense + (1-alpha)*BM25 after per-query min-max normalization",
+  "fixed_alpha": 0.8,
+  "alpha_selected_from": "original development set",
+  "rank_constant": 60,
+  "candidate_retrieval_seconds": 1.208664038000279,
+  "query_results": {
+    "path": "artifacts/additional_retrieval_query_results.csv",
+    "sha256": "7be13db23559659827228dae897e42dd04d06e307f0d08f6d9bf44a113896492",
+    "row_count": 168
+  },
+  "challenge_results": [
+    {
+      "method": "RRF",
+      "rank_constant": 60,
+      "query_count": 42,
+      "hit_rate@1": 0.9285714285714286,
+      "hit_rate@3": 0.9523809523809523,
+      "hit_rate@5": 0.9523809523809523,
+      "mrr": 0.9430555555555555,
+      "fusion_seconds": 0.003036076000171306
+    },
+    {
+      "method": "BM25",
+      "alpha": 0.0,
+      "query_count": 42,
+      "hit_rate@1": 0.7619047619047619,
+      "hit_rate@3": 0.8809523809523809,
+      "hit_rate@5": 0.8809523809523809,
+      "mrr": 0.820436507936508,
+      "fusion_seconds": 0.0011323039998387685
+    },
+    {
+      "method": "Weighted a=0.8",
+      "alpha": 0.8,
+      "query_count": 42,
+      "hit_rate@1": 0.9523809523809523,
+      "hit_rate@3": 1.0,
+      "hit_rate@5": 1.0,
+      "mrr": 0.9761904761904762,
+      "fusion_seconds": 0.002250983000067208
+    },
+    {
+      "method": "Dense",
+      "alpha": 1.0,
+      "query_count": 42,
+      "hit_rate@1": 0.9523809523809523,
+      "hit_rate@3": 1.0,
+      "hit_rate@5": 1.0,
+      "mrr": 0.9761904761904762,
+      "fusion_seconds": 0.0021772709997094353
+    }
+  ]
+}

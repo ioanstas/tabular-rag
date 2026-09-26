@@ -1,0 +1,61 @@
+event_id,event_date,region,event_type,severity_level,duration_hours,affected_area_km2,warning_lead_hours
+WXE001,2024-01-08,Central Macedonia,Cold spell,Severe,21.3,2377,32.2
+WXE002,2024-01-20,Thessaly,Heatwave,Moderate,112,4368,23.4
+WXE003,2024-02-01,South Aegean,Heavy rainfall,Extreme,71.4,526,70.4
+WXE004,2024-02-13,Central Macedonia,Thunderstorm,Extreme,67.2,779,54.1
+WXE005,2024-02-25,Thessaly,Strong wind,Severe,108.4,2590,45.7
+WXE006,2024-03-08,South Aegean,Heatwave,Moderate,55.3,4073,63.8
+WXE007,2024-03-20,Crete,Heavy rainfall,Moderate,91.5,3069,47.4
+WXE008,2024-04-01,Attica,Thunderstorm,Extreme,61.1,1126,14.3
+WXE009,2024-04-13,Epirus,Strong wind,Severe,72.1,4233,44.1
+WXE010,2024-04-25,Crete,Cold spell,Severe,49,4059,9.5
+WXE011,2024-05-07,Attica,Heavy rainfall,Moderate,67.7,2757,2.9
+WXE012,2024-05-19,Epirus,Thunderstorm,Extreme,1.9,564,14.6
+WXE013,2024-05-31,South Aegean,Strong wind,Extreme,73.5,678,49.2
+WXE014,2024-06-12,Central Macedonia,Cold spell,Severe,104,852,21.6
+WXE015,2024-06-24,Thessaly,Heatwave,Moderate,5.5,1305,55.4
+WXE016,2024-07-06,South Aegean,Thunderstorm,Moderate,33.8,3046,26.2
+WXE017,2024-07-18,Central Macedonia,Strong wind,Extreme,79.6,1761,61
+WXE018,2024-07-30,Thessaly,Cold spell,Severe,83.8,3401,30.3
+WXE019,2024-08-11,Epirus,Heatwave,Severe,96.4,2587,
+WXE020,2024-08-23,Crete,Heavy rainfall,Moderate,28.1,2335,43.3
+WXE021,2024-09-04,Attica,Strong wind,Extreme,42,1655,60.2
+WXE022,2024-09-16,Epirus,Cold spell,Extreme,56.5,3188,39.9
+WXE023,2024-09-28,Crete,Heatwave,Severe,92.7,948,64.1
+WXE024,2024-10-10,Attica,Heavy rainfall,Moderate,119.7,5119,25.7
+WXE025,2024-10-22,Thessaly,Thunderstorm,Moderate,108.7,202,66.2
+WXE026,2024-11-03,South Aegean,Cold spell,Extreme,79,563,61.9
+WXE027,2024-11-15,Central Macedonia,Heatwave,Severe,27,4912,13.8
+WXE028,2024-11-27,Thessaly,Heavy rainfall,Severe,81.8,2217,70.5
+WXE029,2024-12-09,South Aegean,Thunderstorm,Moderate,19.1,2840,51.9
+WXE030,2024-12-21,Central Macedonia,Strong wind,Extreme,76.3,1663,19.8
+WXE031,2025-01-02,Attica,Heatwave,Extreme,56,1304,36.3
+WXE032,2025-01-14,Epirus,Heavy rainfall,Severe,106.3,300,59.1
+WXE033,2025-01-26,Crete,Thunderstorm,Moderate,62.6,3302,13.6
+WXE034,2025-02-07,Attica,Strong wind,Moderate,58.6,2167,55.2
+WXE035,2025-02-19,Epirus,Cold spell,Extreme,112.9,319,71.8
+WXE036,2025-03-03,Crete,Heavy rainfall,Severe,73,3296,22.5
+WXE037,2025-03-15,Central Macedonia,Thunderstorm,Severe,2.1,3917,45
+WXE038,2025-03-27,Thessaly,Strong wind,Moderate,83.4,987,69.1
+WXE039,2025-04-08,South Aegean,Cold spell,Extreme,96.6,4281,61
+WXE040,2025-04-20,Central Macedonia,Heatwave,Extreme,102.4,3047,33.4
+WXE041,2025-05-02,Thessaly,Thunderstorm,Severe,22.9,2972,59.3
+WXE042,2025-05-14,South Aegean,Strong wind,Moderate,62.8,4963,4.4
+WXE043,2025-05-26,Crete,Cold spell,Moderate,33.3,1122,32.2
+WXE044,2025-06-07,Attica,Heatwave,Extreme,70.9,1374,34.7
+WXE045,2025-06-19,Epirus,Heavy rainfall,Severe,56.2,1711,25
+WXE046,2025-07-01,Crete,Strong wind,Severe,5.9,4668,57.1
+WXE047,2025-07-13,Attica,Cold spell,Moderate,8.5,2190,28.5
+WXE048,2025-07-25,Epirus,Heatwave,Extreme,12.5,246,46.9
+WXE049,2025-08-06,South Aegean,Heavy rainfall,Extreme,60.2,4829,21.2
+WXE050,2025-08-18,Central Macedonia,Thunderstorm,Severe,104.8,3180,35.1
+WXE051,2025-08-30,Thessaly,Cold spell,Moderate,54.6,3567,31.6
+WXE052,2025-09-11,South Aegean,Heatwave,Moderate,76.3,3206,35.9
+WXE053,2025-09-23,Central Macedonia,Heavy rainfall,Extreme,48,31,40.2
+WXE054,2025-10-05,Thessaly,Thunderstorm,Severe,14.5,2727,55.5
+WXE055,2025-10-17,Epirus,Strong wind,Severe,56.6,1003,9.6
+WXE056,2025-10-29,Crete,Heatwave,Moderate,65.1,4659,29.8
+WXE057,2025-11-10,Attica,Heavy rainfall,Extreme,24.2,2933,67.4
+WXE058,2025-11-22,Epirus,Thunderstorm,Extreme,17,3952,33.8
+WXE059,2025-12-04,Crete,Strong wind,Severe,12,1802,62.4
+WXE060,2025-12-16,Attica,Cold spell,Moderate,57.6,474,12.7

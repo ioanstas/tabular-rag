@@ -1,0 +1,95 @@
+{
+  "input": "/mnt/c/Users/johnh/Documents/Books/artifacts/retrieval_query_results.csv",
+  "methods": [
+    "BM25",
+    "Dense",
+    "RRF",
+    "Weighted a=0.8"
+  ],
+  "dense_weighted_relevant_rank_comparison": {
+    "dev": {
+      "weighted_improved": 5,
+      "dense_improved": 2,
+      "same_relevant_rank": 53
+    },
+    "test": {
+      "weighted_improved": 1,
+      "dense_improved": 1,
+      "same_relevant_rank": 56
+    }
+  },
+  "case_studies": [
+    {
+      "case": "BM25 fails; dense succeeds",
+      "query_id": "q014",
+      "split": "test",
+      "domain": "healthcare",
+      "query_type": "semantic",
+      "difficulty": "medium",
+      "question": "Where were emergency vehicle handovers slowest or diversions longest?",
+      "expected_table_ids": "tbl_007",
+      "method": "Dense",
+      "first_relevant_rank": 1,
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "top_5_table_ids": "tbl_007;tbl_002;tbl_013;tbl_012;tbl_014",
+      "top_5_scores": "1.00000000;0.80416030;0.77326288;0.72916002;0.72500270",
+      "method_results": {
+        "BM25": "tbl_014;tbl_003;tbl_004;tbl_002;tbl_007",
+        "Dense": "tbl_007;tbl_002;tbl_013;tbl_012;tbl_014",
+        "RRF": "tbl_007;tbl_014;tbl_002;tbl_012;tbl_003",
+        "Weighted a=0.8": "tbl_007;tbl_014;tbl_002;tbl_013;tbl_012"
+      }
+    },
+    {
+      "case": "Weighted fusion improves dense rank",
+      "query_id": "q024",
+      "split": "dev",
+      "domain": "public_safety",
+      "query_type": "semantic",
+      "question": "Which areas and urgency classes waited longest for emergency police attendance?",
+      "expected_table_ids": "tbl_012",
+      "dense_rank": 2,
+      "weighted_rank": 1,
+      "outcome": "weighted_improved",
+      "same_top_5_order": false,
+      "dense_top_5": "tbl_002;tbl_012;tbl_007;tbl_011;tbl_015",
+      "weighted_top_5": "tbl_012;tbl_002;tbl_007;tbl_011;tbl_004",
+      "method_results": {
+        "BM25": "tbl_040;tbl_003;tbl_004;tbl_012;tbl_002",
+        "Dense": "tbl_002;tbl_012;tbl_007;tbl_011;tbl_015",
+        "RRF": "tbl_002;tbl_012;tbl_007;tbl_004;tbl_003",
+        "Weighted a=0.8": "tbl_012;tbl_002;tbl_007;tbl_011;tbl_004"
+      }
+    },
+    {
+      "case": "Difficult held-out test query",
+      "query_id": "q010",
+      "split": "test",
+      "domain": "healthcare",
+      "query_type": "semantic",
+      "difficulty": "medium",
+      "question": "Where did discharged patients most often return for another admission within a month?",
+      "expected_table_ids": "tbl_005",
+      "method": "Weighted a=0.8",
+      "first_relevant_rank": 2,
+      "hit_at_1": 0,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "top_5_table_ids": "tbl_001;tbl_005;tbl_006;tbl_008;tbl_002",
+      "top_5_scores": "0.80637763;0.72660968;0.72285845;0.66847365;0.62530848",
+      "method_results": {
+        "BM25": "tbl_050;tbl_016;tbl_035;tbl_049;tbl_007",
+        "Dense": "tbl_001;tbl_005;tbl_006;tbl_008;tbl_002",
+        "RRF": "tbl_007;tbl_035;tbl_050;tbl_006;tbl_002",
+        "Weighted a=0.8": "tbl_001;tbl_005;tbl_006;tbl_008;tbl_002"
+      }
+    }
+  ],
+  "presentation_files": [
+    "test_failures_by_cutoff.png",
+    "test_hit1_by_query_type.png",
+    "test_hit1_by_domain.png"
+  ]
+}

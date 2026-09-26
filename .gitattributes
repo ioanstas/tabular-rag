@@ -1,0 +1,2 @@
+# Preserve bytes: datasets, prompts, and summaries are validated by SHA-256.
+* -text

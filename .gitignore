@@ -2,13 +2,3 @@
 __pycache__/
 *.py[cod]
 .env
-
-# folders
-dataset/
-Videos/
-
-
-# files
-*.md
-*.pdf
-*.pptx

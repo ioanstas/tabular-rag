@@ -1,0 +1,121 @@
+product_service,month,ticket_category,tickets_created,tickets_resolved,median_resolution_hours,reopened_pct
+checkout-api,2025-01,Performance,199,142,89.3,13.4
+search-service,2025-02,Data issue,59,64,21.6,9.6
+notification-worker,2025-03,Access,191,206,48.9,5.9
+accounts-api,2025-04,Data issue,334,256,12.4,10.8
+catalog-service,2025-05,Access,26,28,41.4,0.9
+search-service,2025-06,Performance,290,170,86.7,9
+notification-worker,2025-07,Access,59,64,63.6,5
+accounts-api,2025-08,Performance,315,262,10.9,4.3
+catalog-service,2025-09,Data issue,126,47,119.1,2.9
+checkout-api,2025-10,Performance,308,102,94.1,7
+notification-worker,2025-11,Data issue,311,180,44.7,11.9
+accounts-api,2025-12,Access,47,51,88.9,3.8
+catalog-service,2025-01,Data issue,101,109,27.3,7.2
+checkout-api,2025-02,Access,173,187,78,7.9
+search-service,2025-03,Performance,172,72,70.4,8.7
+accounts-api,2025-04,Access,312,256,64.6,3.1
+catalog-service,2025-05,Performance,27,29,34,10
+checkout-api,2025-06,Data issue,212,149,106.7,
+search-service,2025-07,Performance,157,103,7.7,3.5
+notification-worker,2025-08,Data issue,235,203,47.3,12.5
+catalog-service,2025-09,Access,245,27,108.4,13
+checkout-api,2025-10,Data issue,21,23,68.8,7.1
+search-service,2025-11,Access,123,133,116.5,11.1
+notification-worker,2025-12,Performance,233,220,79.2,7.8
+accounts-api,2025-01,Access,84,91,52,3.3
+checkout-api,2025-02,Performance,188,172,101.8,13.4
+search-service,2025-03,Data issue,308,304,58.5,8.9
+notification-worker,2025-04,Performance,170,140,54.5,8.4
+accounts-api,2025-05,Data issue,178,192,32,2.7
+catalog-service,2025-06,Access,319,344,105.8,10.3
+search-service,2025-07,Data issue,220,176,104.3,8.7
+notification-worker,2025-08,Access,200,104,74.7,2.6
+accounts-api,2025-09,Performance,309,84,23.2,8.4
+catalog-service,2025-10,Access,240,63,77.5,11.7
+checkout-api,2025-11,Performance,192,74,38.1,12.9
+notification-worker,2025-12,Data issue,100,108,52.5,9.9
+accounts-api,2025-01,Performance,211,55,88.4,5.9
+catalog-service,2025-02,Data issue,36,39,115.1,4.3
+checkout-api,2025-03,Access,114,90,101,2.4
+search-service,2025-04,Data issue,13,14,44.2,3.3
+accounts-api,2025-05,Access,215,59,114.1,11.4
+catalog-service,2025-06,Performance,203,219,46.4,5.8
+checkout-api,2025-07,Access,77,33,61.6,6.1
+search-service,2025-08,Performance,327,235,10.2,6.5
+notification-worker,2025-09,Data issue,270,292,45.9,7.7
+catalog-service,2025-10,Performance,186,201,68.8,12.1
+checkout-api,2025-11,Data issue,317,125,88.4,8.9
+search-service,2025-12,Access,170,180,114.2,13
+notification-worker,2025-01,Data issue,250,25,85.7,11
+accounts-api,2025-02,Access,178,192,20.4,10.3
+checkout-api,2025-03,Performance,117,126,60.5,8.1
+search-service,2025-04,Access,274,75,93.7,13.7
+notification-worker,2025-05,Performance,54,34,3.7,7.3
+accounts-api,2025-06,Data issue,76,82,100.2,12.7
+catalog-service,2025-07,Performance,194,210,63,6.5
+search-service,2025-08,Data issue,36,35,70.1,11.6
+notification-worker,2025-09,Access,239,178,110.7,5.2
+accounts-api,2025-10,Data issue,336,244,102.2,3.1
+catalog-service,2025-11,Access,201,217,27.5,11.4
+checkout-api,2025-12,Performance,283,56,46.7,12.4
+notification-worker,2025-01,Access,165,113,114.3,7.7
+accounts-api,2025-02,Performance,39,42,2.1,5.1
+catalog-service,2025-03,Data issue,266,287,38.4,12.8
+checkout-api,2025-04,Performance,250,261,83.7,9.9
+search-service,2025-05,Data issue,146,158,20.6,5.2
+accounts-api,2025-06,Access,52,37,94.4,12.8
+catalog-service,2025-07,Data issue,288,155,9.7,1.1
+checkout-api,2025-08,Access,83,90,77,6.9
+search-service,2025-09,Performance,145,131,74.1,2.1
+notification-worker,2025-10,Access,156,108,5.9,12.1
+catalog-service,2025-11,Performance,123,133,37.5,
+checkout-api,2025-12,Data issue,70,76,60.7,12.5
+search-service,2025-01,Performance,155,167,111.6,6.8
+notification-worker,2025-02,Data issue,281,303,76.8,4.2
+accounts-api,2025-03,Access,176,41,89.5,4.9
+checkout-api,2025-04,Data issue,309,274,32.8,5.8
+search-service,2025-05,Access,195,18,51.9,3.7
+notification-worker,2025-06,Performance,335,244,43.7,10
+accounts-api,2025-07,Access,254,93,60.2,11.6
+catalog-service,2025-08,Performance,162,175,74.6,8.6
+search-service,2025-09,Data issue,237,36,99.2,2.5
+notification-worker,2025-10,Performance,19,21,61.7,12.3
+accounts-api,2025-11,Data issue,265,286,92.7,4.4
+catalog-service,2025-12,Access,41,44,24.5,11.7
+checkout-api,2025-01,Data issue,328,283,39.2,9.7
+notification-worker,2025-02,Access,190,119,119.9,13
+accounts-api,2025-03,Performance,197,78,115.6,4.2
+catalog-service,2025-04,Access,208,54,76,1
+checkout-api,2025-05,Performance,339,102,57,3.2
+search-service,2025-06,Data issue,134,143,102.3,9
+accounts-api,2025-07,Performance,324,258,30.4,10.4
+catalog-service,2025-08,Data issue,56,60,118.2,8.8
+checkout-api,2025-09,Access,306,39,111.4,13.7
+search-service,2025-10,Data issue,213,169,81.9,10.7
+notification-worker,2025-11,Access,329,84,95.5,9.2
+catalog-service,2025-12,Performance,25,27,4.3,12.5
+checkout-api,2025-01,Access,240,53,78.8,13.2
+search-service,2025-02,Performance,220,150,93.2,3.4
+notification-worker,2025-03,Data issue,207,142,70.5,8.9
+accounts-api,2025-04,Performance,332,285,62.3,6.3
+checkout-api,2025-05,Data issue,191,160,74.1,10.8
+search-service,2025-06,Access,21,23,21.4,3.2
+notification-worker,2025-07,Data issue,221,179,57.3,6.3
+accounts-api,2025-08,Access,244,264,27.1,2.2
+catalog-service,2025-09,Performance,269,189,72.2,5.4
+search-service,2025-10,Access,204,168,44.1,10.5
+notification-worker,2025-11,Performance,313,281,3.8,7.9
+accounts-api,2025-12,Data issue,82,89,33.2,2
+catalog-service,2025-01,Performance,276,121,100.1,0.9
+checkout-api,2025-02,Data issue,30,32,49.8,11.3
+notification-worker,2025-03,Access,289,47,35.3,0.9
+accounts-api,2025-04,Data issue,43,46,65.5,8.5
+catalog-service,2025-05,Access,151,163,117,5
+checkout-api,2025-06,Performance,73,79,28.5,9.2
+search-service,2025-07,Access,110,119,39.4,6.6
+accounts-api,2025-08,Performance,26,28,12.6,11.1
+catalog-service,2025-09,Data issue,157,89,10.3,11.5
+checkout-api,2025-10,Performance,338,203,113.9,2.5
+search-service,2025-11,Data issue,89,96,97.4,13.6
+notification-worker,2025-12,Access,18,19,105.6,13

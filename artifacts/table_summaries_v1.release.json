@@ -1,0 +1,277 @@
+{
+  "release": "table_summaries_v1",
+  "created_at_utc": "2026-09-17T18:35:23.754363+00:00",
+  "summary_count": 60,
+  "summary_file": "table_summaries.jsonl",
+  "summary_file_sha256": "f4eddaa7681c5d4b45db822cfca40120ec898e9be0c222917aa8a69547734cd5",
+  "manifest_sha256": "5027a2854483b11e96543c40bcc08bae4152b779459a143a07a823e7409ac679",
+  "prompt_version": "table-summary-v1",
+  "prompt_file": "prompts/table_summary_v1.md",
+  "prompt_sha256": "796b8cb192d04b0116f556a1ef664ea97208a74820b06a014dfc2867afe3b161",
+  "generation_method": "assistant_authored_from_source_profiles",
+  "generator": "Codex assistant",
+  "model_id": null,
+  "model_id_note": "Exact served model snapshot unavailable; no invented model/version identifier.",
+  "preparation": "Assistant authored 60 descriptions from schema and profiles computed over all 4542 source rows. A one-time packaging script appended observed coverage and column names. No automated LLM generation pipeline is provided.",
+  "review": "All descriptions checked by the authoring assistant against supplied source profiles. No independent human review. Automated checks validate integrity, coverage, and source-profile consistency, not semantic truth.",
+  "evaluation_exposure": {
+    "evaluation_files_read_during_this_preparation": false,
+    "known_prior_dev_query_ids": [
+      "q001",
+      "q020",
+      "q037",
+      "q056",
+      "q072"
+    ],
+    "known_prior_test_query_ids": [
+      "q002",
+      "q003"
+    ],
+    "note": "These questions appeared earlier in the authoring conversation. This authoring context is not strictly query-blind. Exclude exposed test IDs from any claimed untouched holdout and document selection. Candidate query labels also require review."
+  },
+  "source_warnings": [
+    {
+      "table_id": "tbl_001",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "report_month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_003",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "report_month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_010",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "report_month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_011",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_012",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "report_month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-08"
+      ]
+    },
+    {
+      "table_id": "tbl_015",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_017",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "report_month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_018",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_019",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-08"
+      ]
+    },
+    {
+      "table_id": "tbl_021",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "report_month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-08"
+      ]
+    },
+    {
+      "table_id": "tbl_027",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-08"
+      ]
+    },
+    {
+      "table_id": "tbl_028",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "posting_month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_031",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_036",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "match_date",
+      "observed": [
+        "2025-08-17",
+        "2026-03-25"
+      ],
+      "manifest": [
+        "2025-08-17",
+        "2026-03-30"
+      ]
+    },
+    {
+      "table_id": "tbl_038",
+      "kind": "manifest_grain_mentions_absent_season_column"
+    },
+    {
+      "table_id": "tbl_039",
+      "kind": "manifest_grain_mentions_absent_season_column"
+    },
+    {
+      "table_id": "tbl_040",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "match_date",
+      "observed": [
+        "2025-08-17",
+        "2026-03-25"
+      ],
+      "manifest": [
+        "2025-08-17",
+        "2026-03-30"
+      ]
+    },
+    {
+      "table_id": "tbl_043",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "absence_start",
+      "observed": [
+        "2025-08-01",
+        "2026-01-25"
+      ],
+      "manifest": [
+        "2025-08-01",
+        "2026-04-30"
+      ]
+    },
+    {
+      "table_id": "tbl_046",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "month",
+      "observed": [
+        "2025-01",
+        "2025-12"
+      ],
+      "manifest": [
+        "2025-01",
+        "2025-06"
+      ]
+    },
+    {
+      "table_id": "tbl_055",
+      "kind": "manifest_date_range_disagrees_with_csv",
+      "column": "event_date",
+      "observed": [
+        "2024-01-08",
+        "2025-12-16"
+      ],
+      "manifest": [
+        "2024-01-08",
+        "2025-12-20"
+      ]
+    }
+  ],
+  "regeneration": "Manual assistant-assisted preparation; downstream runs are reproducible from the frozen text, but raw CSV-to-summary generation is not automated."
+}

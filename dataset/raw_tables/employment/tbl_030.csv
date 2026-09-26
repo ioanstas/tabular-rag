@@ -1,0 +1,61 @@
+occupation,skill,quarter,postings_analyzed,postings_mentioning_skill,mention_rate_pct
+Data Analyst,SQL,2024-Q1,335,105,31.3
+Customer Support Specialist,Docker,2024-Q2,726,424,58.4
+ML Engineer,Kubernetes,2024-Q3,237,237,100
+Software Engineer,PyTorch,2024-Q4,1091,680,62.3
+DevOps Engineer,Power BI,2024-Q1,459,139,30.3
+ML Engineer,Python,2024-Q2,894,377,42.2
+Software Engineer,Docker,2024-Q3,400,216,54
+DevOps Engineer,Kubernetes,2024-Q4,814,735,90.3
+Data Analyst,PyTorch,2024-Q1,700,402,57.4
+Customer Support Specialist,Power BI,2024-Q2,885,374,42.3
+DevOps Engineer,Python,2024-Q3,542,542,100
+Data Analyst,SQL,2024-Q4,829,234,28.2
+Customer Support Specialist,Kubernetes,2024-Q1,342,252,73.7
+ML Engineer,PyTorch,2024-Q2,886,280,31.6
+Software Engineer,Power BI,2024-Q3,854,353,41.3
+Customer Support Specialist,Python,2024-Q4,915,631,69
+ML Engineer,SQL,2024-Q1,976,425,43.5
+Software Engineer,Docker,2024-Q2,173,173,100
+DevOps Engineer,PyTorch,2024-Q3,257,257,100
+Data Analyst,Power BI,2024-Q4,713,517,
+Software Engineer,Python,2024-Q1,1008,409,40.6
+DevOps Engineer,SQL,2024-Q2,1057,654,61.9
+Data Analyst,Docker,2024-Q3,351,295,84
+Customer Support Specialist,Kubernetes,2024-Q4,743,133,17.9
+ML Engineer,Power BI,2024-Q1,488,176,36.1
+Data Analyst,Python,2024-Q2,106,106,100
+Customer Support Specialist,SQL,2024-Q3,393,100,25.4
+ML Engineer,Docker,2024-Q4,685,498,72.7
+Software Engineer,Kubernetes,2024-Q1,660,598,90.6
+DevOps Engineer,PyTorch,2024-Q2,1091,410,37.6
+ML Engineer,Python,2024-Q3,344,344,100
+Software Engineer,SQL,2024-Q4,834,192,23
+DevOps Engineer,Docker,2024-Q1,254,254,100
+Data Analyst,Kubernetes,2024-Q2,973,490,50.4
+Customer Support Specialist,PyTorch,2024-Q3,1083,195,18
+DevOps Engineer,Power BI,2024-Q4,593,593,100
+Data Analyst,SQL,2024-Q1,468,468,100
+Customer Support Specialist,Docker,2024-Q2,397,302,76.1
+ML Engineer,Kubernetes,2024-Q3,540,540,100
+Software Engineer,PyTorch,2024-Q4,664,631,95
+Customer Support Specialist,Power BI,2024-Q1,282,282,100
+ML Engineer,Python,2024-Q2,674,108,16
+Software Engineer,Docker,2024-Q3,184,184,100
+DevOps Engineer,Kubernetes,2024-Q4,1039,364,35
+Data Analyst,PyTorch,2024-Q1,406,406,100
+Software Engineer,Power BI,2024-Q2,841,60,7.1
+DevOps Engineer,Python,2024-Q3,348,348,100
+Data Analyst,SQL,2024-Q4,762,183,24
+Customer Support Specialist,Kubernetes,2024-Q1,647,86,13.3
+ML Engineer,PyTorch,2024-Q2,833,652,78.3
+Data Analyst,Power BI,2024-Q3,696,696,100
+Customer Support Specialist,Python,2024-Q4,1078,657,60.9
+ML Engineer,SQL,2024-Q1,255,149,58.4
+Software Engineer,Docker,2024-Q2,984,580,58.9
+DevOps Engineer,PyTorch,2024-Q3,628,304,48.4
+ML Engineer,Power BI,2024-Q4,578,59,10.2
+Software Engineer,Python,2024-Q1,313,313,100
+DevOps Engineer,SQL,2024-Q2,942,776,82.4
+Data Analyst,Docker,2024-Q3,376,376,100
+Customer Support Specialist,Kubernetes,2024-Q4,718,220,30.6

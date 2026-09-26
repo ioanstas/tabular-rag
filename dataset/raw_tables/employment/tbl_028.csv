@@ -1,0 +1,121 @@
+region_name,posting_month,occupation,vacancies,entry_level_share_pct,remote_share_pct,median_advertised_salary_eur
+Crete,2025-01,ML Engineer,183,20.6,12.5,
+Thessaly,2025-02,Software Engineer,74,9.9,40.7,70180
+Crete,2025-03,DevOps Engineer,244,7.4,20.5,62627
+Thessaly,2025-04,Data Analyst,53,38.9,41.8,76629
+Crete,2025-05,Customer Support Specialist,417,43.8,9.6,76559
+Thessaly,2025-06,DevOps Engineer,96,11.3,20.6,39849
+South Aegean,2025-07,Data Analyst,237,37.8,5.9,66266
+Attica,2025-08,Customer Support Specialist,135,43,15.5,38407
+South Aegean,2025-09,ML Engineer,207,34.9,10.9,27672
+Attica,2025-10,Software Engineer,393,32,23.7,42891
+South Aegean,2025-11,Customer Support Specialist,196,46.6,6.3,52894
+Attica,2025-12,ML Engineer,225,30.9,22.1,50641
+Epirus,2025-01,Software Engineer,278,42.8,37.7,25964
+Central Macedonia,2025-02,DevOps Engineer,55,24.7,4.4,74746
+Epirus,2025-03,Data Analyst,437,38,31.6,63719
+Central Macedonia,2025-04,Software Engineer,136,40,47.5,47346
+Epirus,2025-05,DevOps Engineer,379,11,15.9,72817
+Central Macedonia,2025-06,Data Analyst,173,27.1,44.7,44240
+Thessaly,2025-07,Customer Support Specialist,398,31.8,46,59702
+Crete,2025-08,ML Engineer,201,17.7,17.5,45700
+Thessaly,2025-09,Data Analyst,287,19.7,16.3,35065
+Crete,2025-10,Customer Support Specialist,430,22.3,26,24672
+Thessaly,2025-11,ML Engineer,18,36.7,34.3,41214
+Crete,2025-12,Software Engineer,153,33.7,45.2,65771
+Attica,2025-01,DevOps Engineer,100,18.8,45.2,45317
+South Aegean,2025-02,ML Engineer,347,30.7,16.5,71293
+Attica,2025-03,Software Engineer,235,40.6,22.9,48998
+South Aegean,2025-04,DevOps Engineer,371,33,51.2,76287
+Attica,2025-05,Data Analyst,421,37.7,42.8,60564
+South Aegean,2025-06,Customer Support Specialist,153,20.6,4.7,42568
+Central Macedonia,2025-07,DevOps Engineer,401,35.9,44.9,43142
+Epirus,2025-08,Data Analyst,172,45.9,24.6,18586
+Central Macedonia,2025-09,Customer Support Specialist,377,32,48.8,62882
+Epirus,2025-10,ML Engineer,256,21.6,27.5,59772
+Central Macedonia,2025-11,Software Engineer,101,27.8,8.5,39503
+Epirus,2025-12,Customer Support Specialist,439,46.6,16.6,21223
+Crete,2025-01,ML Engineer,413,29.8,40.6,67163
+Thessaly,2025-02,Software Engineer,387,40.6,21.4,27130
+Crete,2025-03,DevOps Engineer,247,13.7,23.5,39338
+Thessaly,2025-04,Data Analyst,412,21.8,26.5,41482
+Crete,2025-05,Software Engineer,49,34.4,37.7,71721
+Thessaly,2025-06,DevOps Engineer,101,35.8,29.5,20106
+South Aegean,2025-07,Data Analyst,110,9.2,42.5,30741
+Attica,2025-08,Customer Support Specialist,207,33.5,11.6,44743
+South Aegean,2025-09,ML Engineer,167,43.2,45.7,44674
+Attica,2025-10,Data Analyst,60,14.4,16,71963
+South Aegean,2025-11,Customer Support Specialist,302,39.5,48.5,80191
+Attica,2025-12,ML Engineer,192,11.6,19.9,52332
+Epirus,2025-01,Software Engineer,395,36.9,7.6,41598
+Central Macedonia,2025-02,DevOps Engineer,51,20.8,43.5,56817
+Epirus,2025-03,ML Engineer,99,6.3,44,44340
+Central Macedonia,2025-04,Software Engineer,280,36.5,24.8,18363
+Epirus,2025-05,DevOps Engineer,123,8.7,9.4,49334
+Central Macedonia,2025-06,Data Analyst,415,16.3,7,
+Thessaly,2025-07,Customer Support Specialist,182,39.9,41.1,61719
+Crete,2025-08,DevOps Engineer,39,37.4,26.8,72112
+Thessaly,2025-09,Data Analyst,333,9.4,12.7,38818
+Crete,2025-10,Customer Support Specialist,198,12.4,31.5,78261
+Thessaly,2025-11,ML Engineer,245,31.6,41,80973
+Crete,2025-12,Software Engineer,266,24.8,42.7,20814
+Attica,2025-01,Customer Support Specialist,45,45,36.6,53962
+South Aegean,2025-02,ML Engineer,24,21.8,10.7,50121
+Attica,2025-03,Software Engineer,341,30,27,71380
+South Aegean,2025-04,DevOps Engineer,176,13.9,30.5,57794
+Attica,2025-05,Data Analyst,73,45.6,48.4,48570
+South Aegean,2025-06,Software Engineer,233,16.6,24.4,30575
+Central Macedonia,2025-07,DevOps Engineer,316,6.8,5.3,52117
+Epirus,2025-08,Data Analyst,194,30.9,20,81972
+Central Macedonia,2025-09,Customer Support Specialist,59,14.8,49.5,33323
+Epirus,2025-10,ML Engineer,306,26.6,12.1,77488
+Central Macedonia,2025-11,Data Analyst,142,41.6,51.6,58885
+Epirus,2025-12,Customer Support Specialist,333,10.1,49.8,79111
+Crete,2025-01,ML Engineer,162,42.6,30.6,35076
+Thessaly,2025-02,Software Engineer,272,23.3,18.7,56543
+Crete,2025-03,DevOps Engineer,224,33.7,10,27344
+Thessaly,2025-04,ML Engineer,326,28.5,47.3,47677
+Crete,2025-05,Software Engineer,184,14,17.2,71173
+Thessaly,2025-06,DevOps Engineer,78,46.4,44.8,44129
+South Aegean,2025-07,Data Analyst,244,30.7,6.9,45697
+Attica,2025-08,Customer Support Specialist,427,8.9,46,73229
+South Aegean,2025-09,DevOps Engineer,298,22.2,44.3,81286
+Attica,2025-10,Data Analyst,433,31.1,47.8,45864
+South Aegean,2025-11,Customer Support Specialist,261,17.2,39.7,20393
+Attica,2025-12,ML Engineer,404,19.7,13.7,36766
+Epirus,2025-01,Software Engineer,209,38.1,8.3,47793
+Central Macedonia,2025-02,Customer Support Specialist,223,18.5,23.1,63011
+Epirus,2025-03,ML Engineer,380,46.3,51.5,23688
+Central Macedonia,2025-04,Software Engineer,199,16.2,41.7,25940
+Epirus,2025-05,DevOps Engineer,210,38.4,18,32680
+Central Macedonia,2025-06,Data Analyst,88,20.5,30.8,59969
+Thessaly,2025-07,Software Engineer,265,15.4,45.4,20969
+Crete,2025-08,DevOps Engineer,239,26.1,24.1,81859
+Thessaly,2025-09,Data Analyst,382,13.3,30.1,65229
+Crete,2025-10,Customer Support Specialist,412,32.1,51.9,40673
+Thessaly,2025-11,ML Engineer,351,17.5,4.9,71061
+Crete,2025-12,Data Analyst,230,19,45.2,31029
+Attica,2025-01,Customer Support Specialist,374,33.3,24.2,61590
+South Aegean,2025-02,ML Engineer,24,43.3,13.2,25121
+Attica,2025-03,Software Engineer,249,16.7,34.4,23066
+South Aegean,2025-04,DevOps Engineer,423,40.4,12.1,60022
+Attica,2025-05,ML Engineer,63,23.1,53.1,30076
+South Aegean,2025-06,Software Engineer,172,33.9,40.3,37883
+Central Macedonia,2025-07,DevOps Engineer,42,10.2,10.2,57348
+Epirus,2025-08,Data Analyst,233,20.7,37.9,71860
+Central Macedonia,2025-09,Customer Support Specialist,85,24.6,44.7,65970
+Epirus,2025-10,DevOps Engineer,406,15.1,42.9,49953
+Central Macedonia,2025-11,Data Analyst,124,14.2,23.6,
+Epirus,2025-12,Customer Support Specialist,226,9.1,11.7,51458
+Crete,2025-01,ML Engineer,382,45.2,20.1,81782
+Thessaly,2025-02,Software Engineer,196,6.2,41.9,48532
+Crete,2025-03,Customer Support Specialist,133,36.9,33.2,37606
+Thessaly,2025-04,ML Engineer,102,18.2,27.1,64649
+Crete,2025-05,Software Engineer,388,31,9.7,41153
+Thessaly,2025-06,DevOps Engineer,413,20.2,48.4,39009
+South Aegean,2025-07,Data Analyst,173,36.3,42.6,68208
+Attica,2025-08,Software Engineer,95,26.3,5.1,46741
+South Aegean,2025-09,DevOps Engineer,379,11.9,43.8,72588
+Attica,2025-10,Data Analyst,71,22.4,20.8,52361
+South Aegean,2025-11,Customer Support Specialist,176,46.2,41.5,59443
+Attica,2025-12,ML Engineer,422,28.3,17.5,62553

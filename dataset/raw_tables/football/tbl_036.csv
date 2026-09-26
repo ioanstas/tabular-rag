@@ -1,0 +1,57 @@
+match_id,match_date,competition,home_team,away_team,home_goals,away_goals,result
+M001,2025-08-17,National League,Thessaloniki Lions,Larissa Athletic,1,3,Away win
+M002,2025-08-21,National League,Larissa Athletic,Thessaloniki Lions,5,2,Home win
+M003,2025-08-25,National League,Athens Falcons,Volos Mariners,3,3,Draw
+M004,2025-08-29,National League,Crete Stars,Patras United,2,0,Home win
+M005,2025-09-02,National League,Ioannina Eagles,Piraeus Waves,5,3,Home win
+M006,2025-09-06,National League,Piraeus Waves,Ioannina Eagles,3,2,Home win
+M007,2025-09-10,National League,Patras United,Crete Stars,3,0,Home win
+M008,2025-09-14,National League,Volos Mariners,Athens Falcons,1,2,Away win
+M009,2025-09-18,National League,Crete Stars,Ioannina Eagles,4,4,Draw
+M010,2025-09-22,National League,Ioannina Eagles,Crete Stars,2,3,Away win
+M011,2025-09-26,National League,Piraeus Waves,Athens Falcons,1,4,Away win
+M012,2025-09-30,National League,Patras United,Larissa Athletic,3,0,Home win
+M013,2025-10-04,National League,Volos Mariners,Thessaloniki Lions,1,2,Away win
+M014,2025-10-08,National League,Thessaloniki Lions,Volos Mariners,2,1,Home win
+M015,2025-10-12,National League,Larissa Athletic,Patras United,2,1,Home win
+M016,2025-10-16,National League,Athens Falcons,Piraeus Waves,1,3,Away win
+M017,2025-10-20,National League,Patras United,Volos Mariners,3,0,Home win
+M018,2025-10-24,National League,Volos Mariners,Patras United,4,4,Draw
+M019,2025-10-28,National League,Thessaloniki Lions,Piraeus Waves,2,0,Home win
+M020,2025-11-01,National League,Larissa Athletic,Ioannina Eagles,3,1,Home win
+M021,2025-11-05,National League,Athens Falcons,Crete Stars,3,2,Home win
+M022,2025-11-09,National League,Crete Stars,Athens Falcons,1,4,Away win
+M023,2025-11-13,National League,Ioannina Eagles,Larissa Athletic,5,0,Home win
+M024,2025-11-17,National League,Piraeus Waves,Thessaloniki Lions,4,3,
+M025,2025-11-21,National League,Larissa Athletic,Athens Falcons,3,4,Away win
+M026,2025-11-25,National League,Athens Falcons,Larissa Athletic,5,1,Home win
+M027,2025-11-29,National League,Crete Stars,Thessaloniki Lions,3,1,Home win
+M028,2025-12-03,National League,Ioannina Eagles,Volos Mariners,0,2,Away win
+M029,2025-12-07,National League,Piraeus Waves,Patras United,1,1,Draw
+M030,2025-12-11,National League,Patras United,Piraeus Waves,3,3,Draw
+M031,2025-12-15,National League,Volos Mariners,Ioannina Eagles,2,0,Home win
+M032,2025-12-19,National League,Thessaloniki Lions,Crete Stars,0,1,Away win
+M033,2025-12-23,National League,Ioannina Eagles,Piraeus Waves,1,2,Away win
+M034,2025-12-27,National League,Piraeus Waves,Ioannina Eagles,3,2,Home win
+M035,2025-12-31,National League,Patras United,Crete Stars,2,0,Home win
+M036,2026-01-04,National League,Volos Mariners,Athens Falcons,0,1,Away win
+M037,2026-01-08,National League,Thessaloniki Lions,Larissa Athletic,3,2,Home win
+M038,2026-01-12,National League,Larissa Athletic,Thessaloniki Lions,1,2,Away win
+M039,2026-01-16,National League,Athens Falcons,Volos Mariners,3,3,Draw
+M040,2026-01-20,National League,Crete Stars,Patras United,2,4,Away win
+M041,2026-01-24,National League,Volos Mariners,Thessaloniki Lions,3,2,Home win
+M042,2026-01-28,National League,Thessaloniki Lions,Volos Mariners,5,1,Home win
+M043,2026-02-01,National League,Larissa Athletic,Patras United,4,2,Home win
+M044,2026-02-05,National League,Athens Falcons,Piraeus Waves,1,1,Draw
+M045,2026-02-09,National League,Crete Stars,Ioannina Eagles,3,0,Home win
+M046,2026-02-13,National League,Ioannina Eagles,Crete Stars,0,2,Away win
+M047,2026-02-17,National League,Piraeus Waves,Athens Falcons,1,0,Home win
+M048,2026-02-21,National League,Patras United,Larissa Athletic,4,0,Home win
+M049,2026-02-25,National League,Athens Falcons,Crete Stars,1,3,Away win
+M050,2026-03-01,National League,Crete Stars,Athens Falcons,1,2,Away win
+M051,2026-03-05,National League,Ioannina Eagles,Larissa Athletic,0,2,Away win
+M052,2026-03-09,National League,Piraeus Waves,Thessaloniki Lions,1,1,Draw
+M053,2026-03-13,National League,Patras United,Volos Mariners,1,3,Away win
+M054,2026-03-17,National League,Volos Mariners,Patras United,2,1,Home win
+M055,2026-03-21,National League,Thessaloniki Lions,Piraeus Waves,2,4,Away win
+M056,2026-03-25,National League,Larissa Athletic,Ioannina Eagles,4,0,Home win

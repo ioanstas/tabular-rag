@@ -1,0 +1,61 @@
+job_role,experience_level,region,respondents,median_salary_eur,p25_salary_eur,p75_salary_eur
+Customer Support Specialist,Mid,Thessaly,76,56658,47253,69406
+Data Analyst,Senior,South Aegean,278,28423,24415,38229
+DevOps Engineer,Junior,Central Macedonia,59,57785,47730,66568
+Software Engineer,Senior,Thessaly,185,36465,28698,41424
+ML Engineer,Junior,South Aegean,221,36519,30530,41047
+Software Engineer,Mid,Central Macedonia,128,75580,63941,88353
+ML Engineer,Junior,Attica,117,31481,25122,39918
+Customer Support Specialist,Mid,Epirus,314,71806,56727,86167
+Data Analyst,Senior,Crete,266,39658,31092,48859
+DevOps Engineer,Mid,Attica,84,26866,22487,31541
+Data Analyst,Senior,Epirus,188,34437,30580,45732
+DevOps Engineer,Junior,Crete,123,31437,26627,40334
+Software Engineer,Senior,Central Macedonia,74,48045,38436,54243
+ML Engineer,Junior,Thessaly,313,37432,30994,44806
+Customer Support Specialist,Mid,South Aegean,223,30225,24694,38507
+ML Engineer,Junior,Central Macedonia,56,66166,53462,76356
+Customer Support Specialist,Mid,Thessaly,314,32996,28443,42730
+Data Analyst,Senior,South Aegean,188,56321,44775,73837
+DevOps Engineer,Mid,Crete,72,68313,57861,76852
+Software Engineer,Senior,Attica,146,52817,46426,70088
+DevOps Engineer,Junior,Epirus,215,26921,21833,33624
+Software Engineer,Senior,Crete,226,56626,44168,73501
+ML Engineer,Junior,Attica,31,30822,27031,37664
+Customer Support Specialist,Mid,Epirus,101,59502,51172,73544
+Data Analyst,Junior,South Aegean,200,40498,31062,54105
+Customer Support Specialist,Mid,Central Macedonia,276,48617,40936,59750
+Data Analyst,Senior,Thessaly,186,72606,55398,83642
+DevOps Engineer,Mid,South Aegean,318,53421,42630,64960
+Software Engineer,Senior,Central Macedonia,192,55540,43266,74313
+ML Engineer,Junior,Thessaly,257,58541,48062,72591
+Software Engineer,Senior,Epirus,64,48312,41065,58554
+ML Engineer,Junior,Crete,222,57988,47376,73703
+Customer Support Specialist,Mid,Attica,122,66296,50982,79621
+Data Analyst,Junior,Epirus,206,27235,20808,35487
+DevOps Engineer,Mid,Crete,248,27181,22098,33270
+Data Analyst,Senior,Attica,311,48501,43166,59753
+DevOps Engineer,Mid,Thessaly,213,54929,43559,
+Software Engineer,Senior,South Aegean,231,33164,29748,37641
+ML Engineer,Junior,Central Macedonia,230,74778,57579,91154
+Customer Support Specialist,Senior,Thessaly,116,36668,32378,49465
+ML Engineer,Junior,South Aegean,33,75985,62688,94905
+Customer Support Specialist,Mid,Central Macedonia,293,56800,46576,73897
+Data Analyst,Junior,Attica,190,41406,33829,47658
+DevOps Engineer,Mid,Epirus,123,38977,34183,45954
+Software Engineer,Senior,Crete,89,73141,65388,82064
+DevOps Engineer,Mid,Attica,163,58860,50031,72280
+Software Engineer,Senior,Epirus,96,44751,39560,57281
+ML Engineer,Junior,Crete,256,63475,53129,77566
+Customer Support Specialist,Senior,Central Macedonia,82,73013,56585,96158
+Data Analyst,Junior,Thessaly,236,74688,61916,93285
+Customer Support Specialist,Mid,South Aegean,151,69674,54555,93921
+Data Analyst,Junior,Central Macedonia,75,61555,52199,72881
+DevOps Engineer,Mid,Thessaly,193,74479,65467,84832
+Software Engineer,Senior,South Aegean,61,43663,36852,56020
+ML Engineer,Mid,Crete,101,27683,23835,37040
+Software Engineer,Senior,Attica,91,47978,42796,57430
+ML Engineer,Junior,Epirus,272,30559,24478,38382
+Customer Support Specialist,Senior,Crete,202,51879,42437,65783
+Data Analyst,Junior,Attica,252,39595,31320,51632
+DevOps Engineer,Mid,Epirus,85,75536,58994,92985

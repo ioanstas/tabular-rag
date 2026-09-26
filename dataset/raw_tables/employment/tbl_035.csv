@@ -1,0 +1,61 @@
+region_name,training_program,quarter,participants_started,participants_completed,completion_rate_pct,employed_within_90d_pct
+Epirus,Hospitality services,2024-Q1,521,351,67.4,57.8
+Central Macedonia,Healthcare support,2024-Q2,197,195,99,39.4
+Epirus,Digital skills,2024-Q3,95,95,100,72.6
+Central Macedonia,Healthcare support,2024-Q4,385,151,39.2,70.3
+Epirus,Digital skills,2024-Q1,209,108,51.7,55.1
+Central Macedonia,Hospitality services,2024-Q2,433,91,21,75.7
+Thessaly,Digital skills,2024-Q3,554,81,14.6,62.2
+Crete,Hospitality services,2024-Q4,392,290,74,80.2
+Thessaly,Healthcare support,2024-Q1,184,184,100,41.3
+Crete,Hospitality services,2024-Q2,429,93,21.7,56.6
+Thessaly,Healthcare support,2024-Q3,268,268,100,54.7
+Crete,Digital skills,2024-Q4,415,174,41.9,75.1
+Attica,Healthcare support,2024-Q1,540,371,68.7,38.3
+South Aegean,Digital skills,2024-Q2,444,150,33.8,71.4
+Attica,Hospitality services,2024-Q3,279,76,27.2,83.2
+South Aegean,Digital skills,2024-Q4,310,200,64.5,53.6
+Attica,Hospitality services,2024-Q1,491,363,73.9,44.2
+South Aegean,Healthcare support,2024-Q2,453,245,54.1,70.8
+Central Macedonia,Hospitality services,2024-Q3,121,121,100,66.8
+Epirus,Healthcare support,2024-Q4,206,49,23.8,56.6
+Central Macedonia,Digital skills,2024-Q1,507,507,100,53.2
+Epirus,Healthcare support,2024-Q2,533,359,67.4,43.9
+Central Macedonia,Digital skills,2024-Q3,169,169,100,58.1
+Epirus,Hospitality services,2024-Q4,371,371,100,47.6
+Crete,Digital skills,2024-Q1,90,79,87.8,78.5
+Thessaly,Hospitality services,2024-Q2,419,353,84.2,58
+Crete,Healthcare support,2024-Q3,42,42,100,77.4
+Thessaly,Hospitality services,2024-Q4,341,176,51.6,50.3
+Crete,Healthcare support,2024-Q1,328,177,54,80.8
+Thessaly,Digital skills,2024-Q2,550,148,26.9,69.3
+South Aegean,Healthcare support,2024-Q3,165,114,69.1,56.5
+Attica,Digital skills,2024-Q4,268,268,100,70.6
+South Aegean,Hospitality services,2024-Q1,495,187,37.8,49.9
+Attica,Digital skills,2024-Q2,340,340,100,74.9
+South Aegean,Hospitality services,2024-Q3,397,142,35.8,77.4
+Attica,Healthcare support,2024-Q4,144,144,100,80.7
+Epirus,Hospitality services,2024-Q1,229,229,100,38.6
+Central Macedonia,Healthcare support,2024-Q2,193,193,100,61.7
+Epirus,Digital skills,2024-Q3,266,216,81.2,67.4
+Central Macedonia,Healthcare support,2024-Q4,330,330,100,56.5
+Epirus,Digital skills,2024-Q1,510,488,95.7,
+Central Macedonia,Hospitality services,2024-Q2,186,186,100,57.2
+Thessaly,Digital skills,2024-Q3,83,83,100,41.5
+Crete,Hospitality services,2024-Q4,374,288,77,66.4
+Thessaly,Healthcare support,2024-Q1,198,198,100,50.4
+Crete,Hospitality services,2024-Q2,422,228,54,84.3
+Thessaly,Healthcare support,2024-Q3,543,217,40,54.6
+Crete,Digital skills,2024-Q4,381,381,100,77.7
+Attica,Healthcare support,2024-Q1,172,88,51.2,57.8
+South Aegean,Digital skills,2024-Q2,417,229,54.9,79.9
+Attica,Hospitality services,2024-Q3,197,197,100,55
+South Aegean,Digital skills,2024-Q4,394,114,28.9,73.4
+Attica,Hospitality services,2024-Q1,120,120,100,85.9
+South Aegean,Healthcare support,2024-Q2,346,76,22,40.2
+Central Macedonia,Hospitality services,2024-Q3,312,312,100,57
+Epirus,Healthcare support,2024-Q4,286,142,49.7,70.7
+Central Macedonia,Digital skills,2024-Q1,150,150,100,61.4
+Epirus,Healthcare support,2024-Q2,473,221,46.7,43.4
+Central Macedonia,Digital skills,2024-Q3,558,169,30.3,72.2
+Epirus,Hospitality services,2024-Q4,209,152,72.7,70.6

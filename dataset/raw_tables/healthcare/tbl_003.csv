@@ -1,0 +1,91 @@
+hospital_name,department,report_month,staffed_beds,occupied_bed_days,occupancy_pct
+Aster General Hospital,Orthopedics,2025-01,163,2340,46.3
+Olive Grove Clinic,General Medicine,2025-02,169,2276,
+Riverside Regional Hospital,Emergency,2025-03,60,1250,67.2
+Northgate Community Hospital,Cardiology,2025-04,99,1342,45.2
+Helios Medical Center,General Medicine,2025-05,155,2748,57.2
+Helios Medical Center,Emergency,2025-06,31,684,73.6
+Aster General Hospital,Cardiology,2025-07,147,2397,52.6
+Olive Grove Clinic,Orthopedics,2025-08,55,1194,70
+Riverside Regional Hospital,Emergency,2025-09,151,2238,49.4
+Northgate Community Hospital,Cardiology,2025-10,187,4725,81.5
+Northgate Community Hospital,Orthopedics,2025-11,187,3175,56.6
+Helios Medical Center,General Medicine,2025-12,41,1172,92.2
+Aster General Hospital,Cardiology,2025-01,92,1514,53.1
+Olive Grove Clinic,Orthopedics,2025-02,129,3164,87.6
+Riverside Regional Hospital,General Medicine,2025-03,114,2937,83.1
+Riverside Regional Hospital,Emergency,2025-04,73,1783,81.4
+Northgate Community Hospital,Orthopedics,2025-05,166,4127,80.2
+Helios Medical Center,General Medicine,2025-06,76,1145,50.2
+Aster General Hospital,Emergency,2025-07,155,3200,66.6
+Olive Grove Clinic,Cardiology,2025-08,69,1743,81.5
+Olive Grove Clinic,General Medicine,2025-09,57,1009,59
+Riverside Regional Hospital,Emergency,2025-10,131,2010,49.5
+Northgate Community Hospital,Cardiology,2025-11,65,1638,84
+Helios Medical Center,Orthopedics,2025-12,107,1546,46.6
+Aster General Hospital,Emergency,2025-01,136,2281,54.1
+Aster General Hospital,Cardiology,2025-02,176,2484,50.4
+Olive Grove Clinic,Orthopedics,2025-03,74,1952,85.1
+Riverside Regional Hospital,General Medicine,2025-04,79,2090,88.2
+Northgate Community Hospital,Cardiology,2025-05,97,1528,50.8
+Helios Medical Center,Orthopedics,2025-06,168,4178,82.9
+Helios Medical Center,General Medicine,2025-07,66,988,48.3
+Aster General Hospital,Emergency,2025-08,58,1570,87.3
+Olive Grove Clinic,Orthopedics,2025-09,181,2883,53.1
+Riverside Regional Hospital,General Medicine,2025-10,118,2396,65.5
+Northgate Community Hospital,Emergency,2025-11,30,410,45.6
+Northgate Community Hospital,Cardiology,2025-12,93,1698,58.9
+Helios Medical Center,General Medicine,2025-01,172,2298,43.1
+Aster General Hospital,Emergency,2025-02,77,1429,66.3
+Olive Grove Clinic,Cardiology,2025-03,72,989,44.3
+Riverside Regional Hospital,Orthopedics,2025-04,168,2802,55.6
+Riverside Regional Hospital,Emergency,2025-05,125,3449,89
+Northgate Community Hospital,Cardiology,2025-06,137,3111,75.7
+Helios Medical Center,Orthopedics,2025-07,110,1514,44.4
+Aster General Hospital,General Medicine,2025-08,190,4311,73.2
+Olive Grove Clinic,Cardiology,2025-09,172,3375,65.4
+Olive Grove Clinic,Orthopedics,2025-10,55,1337,78.4
+Riverside Regional Hospital,General Medicine,2025-11,149,1949,43.6
+Northgate Community Hospital,Emergency,2025-12,116,2992,83.2
+Helios Medical Center,Orthopedics,2025-01,38,1083,91.9
+Aster General Hospital,General Medicine,2025-02,80,1400,62.5
+Aster General Hospital,Emergency,2025-03,129,2731,68.3
+Olive Grove Clinic,Cardiology,2025-04,58,1077,61.9
+Riverside Regional Hospital,General Medicine,2025-05,78,1961,81.1
+Northgate Community Hospital,Emergency,2025-06,150,3119,69.3
+Helios Medical Center,Cardiology,2025-07,160,3140,
+Helios Medical Center,Orthopedics,2025-08,128,3028,76.3
+Aster General Hospital,Emergency,2025-09,58,1380,79.3
+Olive Grove Clinic,Cardiology,2025-10,188,5397,92.6
+Riverside Regional Hospital,Orthopedics,2025-11,92,1717,62.2
+Northgate Community Hospital,General Medicine,2025-12,184,2966,52
+Northgate Community Hospital,Cardiology,2025-01,39,838,69.3
+Helios Medical Center,Orthopedics,2025-02,69,1772,91.7
+Aster General Hospital,General Medicine,2025-03,29,692,77
+Olive Grove Clinic,Emergency,2025-04,149,1989,44.5
+Riverside Regional Hospital,Orthopedics,2025-05,41,919,72.3
+Riverside Regional Hospital,General Medicine,2025-06,53,832,52.3
+Northgate Community Hospital,Emergency,2025-07,162,4434,88.3
+Helios Medical Center,Cardiology,2025-08,152,4043,85.8
+Aster General Hospital,General Medicine,2025-09,145,3480,80
+Olive Grove Clinic,Emergency,2025-10,43,593,44.5
+Olive Grove Clinic,Cardiology,2025-11,160,2846,59.3
+Riverside Regional Hospital,Orthopedics,2025-12,50,670,43.2
+Northgate Community Hospital,Emergency,2025-01,175,4177,77
+Helios Medical Center,Cardiology,2025-02,61,806,47.2
+Aster General Hospital,Orthopedics,2025-03,41,835,65.7
+Aster General Hospital,General Medicine,2025-04,137,1747,42.5
+Olive Grove Clinic,Cardiology,2025-05,140,2426,55.9
+Riverside Regional Hospital,Orthopedics,2025-06,146,3324,75.9
+Northgate Community Hospital,General Medicine,2025-07,46,1084,76
+Helios Medical Center,Emergency,2025-08,109,2463,72.9
+Helios Medical Center,Orthopedics,2025-09,103,2228,72.1
+Aster General Hospital,General Medicine,2025-10,76,1180,50.1
+Olive Grove Clinic,Emergency,2025-11,119,1831,51.3
+Riverside Regional Hospital,Cardiology,2025-12,183,3007,53
+Northgate Community Hospital,General Medicine,2025-01,130,2317,57.5
+Northgate Community Hospital,Emergency,2025-02,31,651,75
+Helios Medical Center,Cardiology,2025-03,139,2676,62.1
+Aster General Hospital,Orthopedics,2025-04,44,1036,78.5
+Olive Grove Clinic,Emergency,2025-05,169,3688,70.4
+Riverside Regional Hospital,Cardiology,2025-06,122,2485,67.9

@@ -1,0 +1,91 @@
+enforcement_area,month,check_outcome,drivers_checked,citations_issued,vehicles_impounded
+North District,2025-01,Speeding,2857,742,13
+Central District,2025-02,Impaired driving,791,53,38
+West District,2025-03,No violation,1733,695,49
+South District,2025-04,Impaired driving,2746,458,27
+East District,2025-05,No violation,1369,756,14
+East District,2025-06,Speeding,2328,816,31
+North District,2025-07,No violation,417,417,18
+Central District,2025-08,Speeding,2161,476,50
+West District,2025-09,Impaired driving,2235,440,29
+South District,2025-10,Speeding,514,514,44
+South District,2025-11,Impaired driving,190,58,1
+East District,2025-12,No violation,2842,651,
+North District,2025-01,Impaired driving,1794,371,21
+Central District,2025-02,No violation,1109,537,42
+West District,2025-03,Speeding,760,474,12
+West District,2025-04,No violation,1516,415,47
+South District,2025-05,Speeding,831,742,7
+East District,2025-06,Impaired driving,2462,338,39
+North District,2025-07,Speeding,693,653,37
+Central District,2025-08,Impaired driving,2262,843,5
+Central District,2025-09,No violation,251,251,31
+West District,2025-10,Impaired driving,2409,247,46
+South District,2025-11,No violation,1557,833,4
+East District,2025-12,Speeding,2688,730,49
+North District,2025-01,No violation,423,169,32
+North District,2025-02,Speeding,2284,624,35
+Central District,2025-03,Impaired driving,1355,149,54
+West District,2025-04,Speeding,1208,360,50
+South District,2025-05,Impaired driving,874,245,15
+East District,2025-06,No violation,1828,494,24
+East District,2025-07,Impaired driving,526,526,1
+North District,2025-08,No violation,1752,471,24
+Central District,2025-09,Speeding,699,184,31
+West District,2025-10,No violation,1987,154,7
+South District,2025-11,Speeding,3062,446,24
+South District,2025-12,Impaired driving,2572,70,35
+East District,2025-01,Speeding,332,326,44
+North District,2025-02,Impaired driving,1491,111,1
+Central District,2025-03,No violation,641,188,43
+West District,2025-04,Impaired driving,460,26,12
+West District,2025-05,No violation,1771,521,51
+South District,2025-06,Speeding,1110,493,37
+East District,2025-07,No violation,608,474,13
+North District,2025-08,Speeding,3044,830,39
+Central District,2025-09,Impaired driving,2129,93,20
+Central District,2025-10,Speeding,423,423,27
+West District,2025-11,Impaired driving,3055,35,44
+South District,2025-12,No violation,1767,595,1
+East District,2025-01,Impaired driving,591,220,50
+North District,2025-02,No violation,1343,543,23
+North District,2025-03,Speeding,372,269,53
+Central District,2025-04,No violation,2438,657,35
+West District,2025-05,Speeding,2327,847,2
+South District,2025-06,Impaired driving,1314,637,40
+East District,2025-07,Speeding,1909,734,27
+East District,2025-08,Impaired driving,950,83,50
+North District,2025-09,No violation,1742,375,30
+Central District,2025-10,Impaired driving,3018,478,28
+West District,2025-11,No violation,3115,316,18
+South District,2025-12,Speeding,1816,258,52
+South District,2025-01,No violation,507,507,24
+East District,2025-02,Speeding,2118,176,44
+North District,2025-03,Impaired driving,1102,76,15
+Central District,2025-04,Speeding,1951,435,39
+West District,2025-05,Impaired driving,2386,734,
+West District,2025-06,No violation,3027,76,33
+South District,2025-07,Impaired driving,2024,431,18
+East District,2025-08,No violation,2206,594,52
+North District,2025-09,Speeding,2197,756,6
+Central District,2025-10,No violation,1038,129,25
+Central District,2025-11,Speeding,2049,137,1
+West District,2025-12,Impaired driving,2155,620,22
+South District,2025-01,Speeding,3186,71,12
+East District,2025-02,Impaired driving,884,571,42
+North District,2025-03,No violation,1893,841,24
+North District,2025-04,Impaired driving,2666,517,47
+Central District,2025-05,No violation,1747,300,5
+West District,2025-06,Speeding,3095,437,43
+South District,2025-07,No violation,1816,51,21
+East District,2025-08,Speeding,2476,833,47
+East District,2025-09,Impaired driving,882,627,43
+North District,2025-10,Speeding,672,144,30
+Central District,2025-11,Impaired driving,2703,492,11
+West District,2025-12,No violation,1252,125,25
+South District,2025-01,Impaired driving,249,249,44
+South District,2025-02,No violation,2376,543,19
+East District,2025-03,Speeding,514,444,36
+North District,2025-04,No violation,1965,628,22
+Central District,2025-05,Speeding,714,424,12
+West District,2025-06,Impaired driving,2103,800,1

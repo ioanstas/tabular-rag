@@ -1,0 +1,61 @@
+district_name,quarter,vehicle_type,vehicles_reported_stolen,vehicles_recovered,recovery_rate_pct
+South District,2024-Q1,Commercial vehicle,20,20,100
+East District,2024-Q2,Car,93,8,8.6
+North District,2024-Q3,Motorcycle,9,9,100
+Central District,2024-Q4,Car,42,42,100
+West District,2024-Q1,Motorcycle,79,75,94.9
+West District,2024-Q2,Commercial vehicle,85,33,38.8
+South District,2024-Q3,Motorcycle,5,5,100
+East District,2024-Q4,Commercial vehicle,49,25,51
+North District,2024-Q1,Car,95,77,81.1
+Central District,2024-Q2,Commercial vehicle,56,11,19.6
+Central District,2024-Q3,Car,96,71,74
+West District,2024-Q4,Motorcycle,44,21,47.7
+South District,2024-Q1,Car,79,73,92.4
+East District,2024-Q2,Motorcycle,50,35,70
+North District,2024-Q3,Commercial vehicle,11,11,100
+North District,2024-Q4,Motorcycle,99,16,16.2
+Central District,2024-Q1,Commercial vehicle,60,26,43.3
+West District,2024-Q2,Car,56,9,16.1
+South District,2024-Q3,Commercial vehicle,5,5,100
+East District,2024-Q4,Car,72,18,25
+East District,2024-Q1,Motorcycle,86,64,74.4
+North District,2024-Q2,Car,15,15,100
+Central District,2024-Q3,Motorcycle,45,45,100
+West District,2024-Q4,Commercial vehicle,51,10,19.6
+South District,2024-Q1,Motorcycle,58,58,100
+South District,2024-Q2,Commercial vehicle,8,8,100
+East District,2024-Q3,Car,69,69,
+North District,2024-Q4,Commercial vehicle,25,9,36
+Central District,2024-Q1,Car,12,12,100
+West District,2024-Q2,Motorcycle,91,3,3.3
+West District,2024-Q3,Car,100,78,78
+South District,2024-Q4,Motorcycle,92,72,78.3
+East District,2024-Q1,Commercial vehicle,21,21,100
+North District,2024-Q2,Motorcycle,81,48,59.3
+Central District,2024-Q3,Commercial vehicle,42,42,100
+Central District,2024-Q4,Car,8,8,100
+West District,2024-Q1,Commercial vehicle,86,41,47.7
+South District,2024-Q2,Car,108,66,61.1
+East District,2024-Q3,Motorcycle,60,60,100
+North District,2024-Q4,Car,31,31,100
+North District,2024-Q1,Motorcycle,57,2,3.5
+Central District,2024-Q2,Commercial vehicle,91,53,58.2
+West District,2024-Q3,Motorcycle,41,11,26.8
+South District,2024-Q4,Commercial vehicle,18,18,100
+East District,2024-Q1,Car,24,24,100
+East District,2024-Q2,Commercial vehicle,33,33,100
+North District,2024-Q3,Car,14,14,100
+Central District,2024-Q4,Motorcycle,70,70,100
+West District,2024-Q1,Car,83,10,12
+South District,2024-Q2,Motorcycle,57,57,100
+South District,2024-Q3,Commercial vehicle,49,49,100
+East District,2024-Q4,Motorcycle,27,27,100
+North District,2024-Q1,Commercial vehicle,94,40,42.6
+Central District,2024-Q2,Car,68,51,75
+West District,2024-Q3,Commercial vehicle,27,4,14.8
+West District,2024-Q4,Car,94,70,74.5
+South District,2024-Q1,Motorcycle,108,65,60.2
+East District,2024-Q2,Car,42,42,100
+North District,2024-Q3,Motorcycle,116,79,68.1
+Central District,2024-Q4,Commercial vehicle,88,53,60.2

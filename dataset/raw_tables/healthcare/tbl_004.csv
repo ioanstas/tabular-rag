@@ -1,0 +1,61 @@
+facility_name,department,quarter,physicians_fte,nurses_fte,vacant_positions,overtime_hours
+Northgate Community Hospital,Orthopedics,2024-Q1,17.4,43.8,9,1426
+Aster General Hospital,General Medicine,2024-Q2,27.3,34.7,14,129
+Riverside Regional Hospital,Emergency,2024-Q3,42.6,85.2,8,212
+Helios Medical Center,Cardiology,2024-Q4,48,96.1,16,505
+Olive Grove Clinic,General Medicine,2024-Q1,37.1,74.2,10,1005
+Riverside Regional Hospital,Emergency,2024-Q2,13.3,31.5,5,1393
+Helios Medical Center,Cardiology,2024-Q3,23.3,82.6,12,733
+Olive Grove Clinic,Orthopedics,2024-Q4,12.3,110.3,16,90
+Northgate Community Hospital,Emergency,2024-Q1,30.3,38,4,637
+Aster General Hospital,Cardiology,2024-Q2,17.3,99.7,15,1064
+Olive Grove Clinic,Orthopedics,2024-Q3,8.9,154.8,13,625
+Northgate Community Hospital,General Medicine,2024-Q4,40.5,90,5,1404
+Aster General Hospital,Cardiology,2024-Q1,11.3,142.9,13,847
+Riverside Regional Hospital,Orthopedics,2024-Q2,31.9,81.2,2,1435
+Helios Medical Center,General Medicine,2024-Q3,12.6,129.8,4,546
+Aster General Hospital,Emergency,2024-Q4,10,71.5,0,848
+Riverside Regional Hospital,Orthopedics,2024-Q1,24.6,32.2,5,442
+Helios Medical Center,General Medicine,2024-Q2,15.2,56.9,1,709
+Olive Grove Clinic,Emergency,2024-Q3,47.9,139.3,9,582
+Northgate Community Hospital,Cardiology,2024-Q4,28.2,128.4,1,935
+Helios Medical Center,General Medicine,2024-Q1,17.9,72.1,3,1164
+Olive Grove Clinic,Emergency,2024-Q2,25.1,67,12,811
+Northgate Community Hospital,Cardiology,2024-Q3,46.2,63.7,2,732
+Aster General Hospital,Orthopedics,2024-Q4,29.3,127.9,15,387
+Riverside Regional Hospital,Emergency,2024-Q1,6,146.8,9,546
+Northgate Community Hospital,Cardiology,2024-Q2,32.1,98.7,5,859
+Aster General Hospital,Orthopedics,2024-Q3,9.4,136.4,4,350
+Riverside Regional Hospital,General Medicine,2024-Q4,34.7,85.4,3,519
+Helios Medical Center,Cardiology,2024-Q1,30.2,169.7,15,254
+Olive Grove Clinic,Orthopedics,2024-Q2,42.6,76.1,4,158
+Riverside Regional Hospital,General Medicine,2024-Q3,45.8,26.7,16,589
+Helios Medical Center,Emergency,2024-Q4,12.8,96.6,4,151
+Olive Grove Clinic,Orthopedics,2024-Q1,15.4,131.1,5,513
+Northgate Community Hospital,General Medicine,2024-Q2,26.6,93,11,1096
+Aster General Hospital,Emergency,2024-Q3,6,110.6,9,1267
+Olive Grove Clinic,Cardiology,2024-Q4,44.7,145,1,831
+Northgate Community Hospital,General Medicine,2024-Q1,16.9,45.8,14,780
+Aster General Hospital,Emergency,2024-Q2,6.9,64.3,2,
+Riverside Regional Hospital,Cardiology,2024-Q3,34.5,35.2,4,95
+Helios Medical Center,Orthopedics,2024-Q4,11.6,24.6,11,625
+Aster General Hospital,Emergency,2024-Q1,45.3,57.1,9,443
+Riverside Regional Hospital,Cardiology,2024-Q2,24.2,22.6,16,115
+Helios Medical Center,Orthopedics,2024-Q3,18.8,128.4,10,1024
+Olive Grove Clinic,General Medicine,2024-Q4,15.7,109.8,4,1368
+Northgate Community Hospital,Cardiology,2024-Q1,13.4,160.6,12,466
+Helios Medical Center,Orthopedics,2024-Q2,34.6,90.7,6,1230
+Olive Grove Clinic,General Medicine,2024-Q3,9.6,157,0,270
+Northgate Community Hospital,Emergency,2024-Q4,40.6,43.1,13,1297
+Aster General Hospital,Orthopedics,2024-Q1,46.6,22.4,15,1032
+Riverside Regional Hospital,General Medicine,2024-Q2,35.5,67.3,16,765
+Northgate Community Hospital,Emergency,2024-Q3,19.6,99.3,6,1440
+Aster General Hospital,Cardiology,2024-Q4,47.2,63.1,9,1127
+Riverside Regional Hospital,General Medicine,2024-Q1,15.6,163.2,9,1100
+Helios Medical Center,Emergency,2024-Q2,28.1,157.9,13,931
+Olive Grove Clinic,Cardiology,2024-Q3,42.1,58.5,11,1392
+Riverside Regional Hospital,Orthopedics,2024-Q4,44.2,142.7,7,365
+Helios Medical Center,Emergency,2024-Q1,13.8,36.9,17,968
+Olive Grove Clinic,Cardiology,2024-Q2,30.6,150.1,12,1313
+Northgate Community Hospital,Orthopedics,2024-Q3,4.1,164.1,3,1125
+Aster General Hospital,General Medicine,2024-Q4,33.3,134.7,6,153

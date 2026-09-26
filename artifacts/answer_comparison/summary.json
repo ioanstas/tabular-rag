@@ -1,0 +1,64 @@
+{
+  "config": {
+    "model": "qwen3.5:9b",
+    "temperature": 0,
+    "think": false,
+    "num_ctx": 32768,
+    "max_output_tokens": 8192,
+    "alpha": 0.8,
+    "top_k": 3,
+    "suite_sha256": "77a30b68470081ca174c8534c6f11e89ca076fd395519535c810f20a4ab3d805",
+    "prompt": "Answer the question about this project's synthetic dataset.\nUse supplied evidence when available. If you cannot establish the exact answer,\nreturn insufficient_evidence; do not invent dataset values.\nReturn the requested scalar alone in answer_value (no units, commas, or citations).\nExplain briefly in answer. Put supporting table IDs in cited_table_ids.\nNever cite tables you have not received. Return JSON matching the schema.",
+    "schema": {
+      "properties": {
+        "status": {
+          "enum": [
+            "answered",
+            "insufficient_evidence"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "answer_value": {
+          "title": "Answer Value",
+          "type": "string"
+        },
+        "answer": {
+          "title": "Answer",
+          "type": "string"
+        },
+        "cited_table_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Cited Table Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status",
+        "answer_value",
+        "answer",
+        "cited_table_ids"
+      ],
+      "title": "Response",
+      "type": "object"
+    }
+  },
+  "summary": {
+    "without_rag": {
+      "completed": 12,
+      "errors": 0,
+      "answerable_correct": 0,
+      "answerable_total": 11,
+      "unanswerable_correct": 1
+    },
+    "with_rag": {
+      "completed": 12,
+      "errors": 0,
+      "answerable_correct": 9,
+      "answerable_total": 11,
+      "unanswerable_correct": 1
+    }
+  }
+}
